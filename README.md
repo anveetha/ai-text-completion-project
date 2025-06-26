@@ -21,7 +21,7 @@ A simple command-line chatbot interface using the [Cohere API](https://cohere.co
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/cohere-cli-chat.git
+git clone https://github.com/anveetha/ai-text-completion-project.git
 cd cohere-cli-chat
 ```
 
