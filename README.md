@@ -1,19 +1,15 @@
-Sure! Here's a short and clean GitHub `README.md` for your Cohere chat script:
-
----
-
-# 🧠 Cohere CLI Chatbot
+# 🧠 Cohere Text Completion Chatbot
 
 A simple command-line chatbot interface using the [Cohere API](https://cohere.com/) that allows dynamic adjustment of creativity during a session.
 
-## ✨ Features
+## Features
 
 * Chat with Cohere's `command` model via the terminal
 * Dynamically adjust creativity (temperature) between 0–1 during the session
 * Handles both default and user-provided API keys
 * Limits token response to avoid crashing
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -47,24 +43,10 @@ COHERE_API_KEY = "your-default-api-key-here"
 Run the script:
 
 ```bash
-python chat.py
+python text_completion_app.py
 ```
 
-* Press `ENTER` to use the default API key from `config.py` or input your own.
+* Input your own Cohere API key either via `config.py` or directly through the terminal upon startup. 
 * Type `CREATIVITY` to change the creativity level (0–10).
 * Type `END` to exit the chat session.
-
-## 🛠 Example
-
-```
->> Hello!
-Cohere: Hi there! How can I help you today?
-
->> CREATIVITY
->> 7
-Creativity set to 0.7.
-
->> Tell me a joke.
-Cohere: Why did the computer show up late to work? It had a hard drive!
-```
 
