@@ -31,11 +31,11 @@ cd cohere-cli-chat
 pip install cohere
 ```
 
-3. Create a `config.py` file in the project directory with your API key:
+3. Edit the `config.py` file in the project directory with your API key:
 
 ```python
 # config.py
-COHERE_API_KEY = "your-default-api-key-here"
+COHERE_API_KEY = 'your-default-api-key-here'
 ```
 
 ### Usage
